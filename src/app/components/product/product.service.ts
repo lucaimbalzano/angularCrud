@@ -42,4 +42,13 @@ export class ProductService {
       )
   }
 
+  
+  deleteById(id: string | number) : Observable<Product> {
+    const uri = `${this.url}/${id}`
+    return this.http.delete<Product>(uri)
+      .pipe(
+             map(obj => obj)
+      )
+  }
+
 }
