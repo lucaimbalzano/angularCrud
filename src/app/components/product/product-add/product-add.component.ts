@@ -3,7 +3,7 @@ import { Component, TemplateRef, OnInit } from '@angular/core';
 import { BsModalService, BsModalRef } from 'ngx-bootstrap/modal';
 import { Product } from '../product-model';
 import { ProductService } from '../product.service';
-
+import {  Router } from '@angular/router';
 
 @Component({
   selector: 'app-product-add',
@@ -20,7 +20,7 @@ export class ProductAddComponent implements OnInit {
   msg = this.isValid ? "Success to insert product" : "Failed to insert the product";
   modalRef: BsModalRef;
 
-  constructor(private modalService: BsModalService, private productService: ProductService) { }
+  constructor(private modalService: BsModalService, private productService: ProductService, private router: Router,) { }
 
   openModal(template: TemplateRef<any>) {
     this.modalRef = this.modalService.show(template);
@@ -37,6 +37,8 @@ export class ProductAddComponent implements OnInit {
           console.log(data);
           this.modalRef.hide();
           this.isValid = true;
+          this.router.navigate(['/products'])
+          window.location.reload()
         },
         error => {
           console.log(error);
