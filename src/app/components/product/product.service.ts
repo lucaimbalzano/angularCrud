@@ -27,7 +27,7 @@ export class ProductService {
   }
 
   updateDatabase(product: Product): Observable<Product> {
-    const uri = `${this.url}//${product.id}`
+    const uri = `${this.url}/${product.id}`
     return this.http.put<Product>(uri, product)
       .pipe(
         map(result => result)
