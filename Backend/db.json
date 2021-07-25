@@ -1,0 +1,29 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta BIC Prett",
+      "price": "5.90"
+    },
+    {
+      "id": 2,
+      "name": "Notebook Mac Pro",
+      "price": 12000.89
+    },
+    {
+      "id": 3,
+      "name": "Sansung S20 Plus",
+      "price": "7400.89"
+    },
+    {
+      "name": "Geladeira Plus",
+      "price": "1300",
+      "id": 4
+    },
+    {
+      "name": "Iphone X",
+      "price": "1080",
+      "id": 5
+    }
+  ]
+}
