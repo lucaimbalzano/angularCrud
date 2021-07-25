@@ -13,6 +13,8 @@
 - Run `ng serve --port 1999` for a dev server. Navigate to `http://localhost:1999/`. The app will automatically reload if you change any of the source files.
 
 ## Preview Deployment   🔎 
+![p1](https://user-images.githubusercontent.com/45575898/126895150-9a764087-2648-4354-8b32-9044d2b22216.PNG)
+
 
 ## Code scaffolding
 
