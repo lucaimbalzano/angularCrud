@@ -15,6 +15,9 @@
 ## Preview Deployment   🔎 
 ![p1](https://user-images.githubusercontent.com/45575898/126895150-9a764087-2648-4354-8b32-9044d2b22216.PNG)
 
+![p2](https://user-images.githubusercontent.com/45575898/126895193-9feb65b5-02d4-4e51-94a3-236c037c2ed1.PNG)
+
+![p3](https://user-images.githubusercontent.com/45575898/126895208-1b32b6b8-d3d3-4eb2-8f1f-0e72a15f7e6d.PNG)
 
 ## Code scaffolding
 
